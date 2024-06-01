@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.cabecalho-logado {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-head{
+    width: 50%;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+#buscador{
+    margin: auto;
+    background-color: #f0f0f0; /* Cor de fundo do campo de busca */
+    height: 35px;
+    width: 80%; /* Reduzindo a largura do campo de busca */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px; /* Adicionando espaço interno à esquerda para o ícone */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    box-shadow: #696969 0px 0px 5px;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.search-txt::placeholder {
+    color: #999; /* Cor do texto do placeholder */
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.map-box {
+    border-radius: 1rem;
+    width: 95%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 1%;
+    border: 0;
+}
+
+.pesquisa-bar i {
+    margin-right: 0.25%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #dddddd;
+}
+
+.loja-btn {
+    margin-left: 2rem;
+}
+
+.btn-home {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: ease-in-out .25s;
+}
+
+.btn-home:hover {
+    color: #ffffff;
+    text-shadow: #ffffff 0px 0px 10px;
+    text-decoration: none;
+}
+
+#resultados {
+    padding: 1rem;
+    background-color: #dddddd;
+    width: 80%;
+    height: auto;
+    border: #333 5px;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 10rem; /* ou */
+}
+
+#resultados div {
+    margin-top: auto;
+}
+
+#localSelecionado {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 10px 0 ;
+    margin-bottom: 5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+#infos-empresa {
+    padding: 3rem; /* Adicionando padding para espaçamento interno */
+    background-color: #f0f0f0; /* Cor de fundo da seção */
+    border-radius: 10px; /* Adicionando borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra suave */
+}
+
+#infos-empresa h5 {
+    font-size: 20px; /* Alterando o tamanho da fonte do título */
+    font-weight: bold; /* Deixando o título em negrito */
+    margin-bottom: 10px; /* Adicionando espaço inferior entre o título e o conteúdo */
+}
+
+#infos-empresa p {
+    font-size: 16px; /* Alterando o tamanho da fonte do conteúdo */
+    line-height: 1.6; /* Ajustando o espaçamento entre linhas */@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
